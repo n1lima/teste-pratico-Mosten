@@ -19,14 +19,6 @@ A aplicação permite aos usuários visualizar uma lista de títulos, votar nele
 
 - **Armazenamento de Dados**: Todos os dados, incluindo a lista de filmes/séries e os votos, são persistidos usando o `localStorage` do navegador, garantindo que as informações não se percam ao recarregar a página.
 
-## Observação Importante
-
-No início do arquivo `app.js`, existe uma linha comentada que pode ser usada para **limpar todos os filmes e votos armazenados no `localStorage`**:
-
-```js
-// localStorage.removeItem('filmes');
-```
-
 ## Estrutura do Projeto
 
 O projeto é composto por três arquivos principais:
@@ -40,3 +32,19 @@ O projeto é composto por três arquivos principais:
 1. Clone o repositório para sua máquina local.  
   ```bash
    git clone https://github.com/n1lima/teste-pratico-Mosten.git
+```
+
+## Observação Importante
+
+No início do arquivo `app.js`, existe uma linha comentada que pode ser usada para **limpar todos os filmes e votos armazenados no `localStorage`**:
+
+```js
+// localStorage.removeItem('filmes');
+```
+
+## Link da Aplicação
+
+Você pode acessar a aplicação funcionando no link abaixo:
+
+[Simulador de Votação de Filmes e Séries]([https://seu-link-deploy-aqui.com](https://n1lima.github.io/teste-pratico-Mosten))
+
