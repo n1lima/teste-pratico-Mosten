@@ -46,5 +46,6 @@ No início do arquivo `app.js`, existe uma linha comentada que pode ser usada pa
 
 Você pode acessar a aplicação funcionando no link abaixo:
 
-[Simulador de Votação de Filmes e Séries]([https://seu-link-deploy-aqui.com](https://n1lima.github.io/teste-pratico-Mosten))
+[Simulador de Votação de Filmes e Séries](https://n1lima.github.io/teste-pratico-Mosten)
+
 
