@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link reL="stylesheet" href="styles.css">
     <title>Séries & Filmes - Votação</title>
 </head>
 <body>
-    
+   <h1>Sistema de Votação</h1>
+<div class="totais">
+  Total Gostei: <span id="totalPositivos">0</span> | 
+  Total Não Gostei: <span id="totalNegativos">0</span>
+</div>
+
+<div class="filmes" id="lista-filmes"></div>
+
+<form id="form-filme">
+  <h2>Adicionar Novo Filme/Série</h2>
+  <input type="text" id="titulo" placeholder="Título" required>
+  <input type="text" id="genero" placeholder="Gênero" required>
+  <textarea id="descricao" placeholder="Descrição" required></textarea>
+  <input type="url" id="capa" placeholder="URL da capa (imagem)" required>
+  <button type="submit">Adicionar</button>
+</form>
+<script type="module" src="app.js"></script>
 </body>
 </html>
