@@ -1,41 +1,41 @@
 let filmes = JSON.parse(localStorage.getItem('filmes')) || [
     {
-      titulo: "O Poderoso Chefão",
-      genero: "Drama",
-      descricao: "A história da família Corleone e o mundo da máfia.",
-      capa: "https://m.media-amazon.com/images/I/51rOnIjLqzL._AC_.jpg",
+      titulo: "Minecraft: O Filme",
+      genero: "Aventura, Fantasia, Animação",
+      descricao: "Baseado no popular jogo de videogame, o filme segue a jornada épica de uma adolescente e seus amigos para salvar o mundo em blocos de uma ameaça perigosa.",
+      capa: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSHAuYOz4eh4akUfe6CHe55sV1UfpQ2clSp6wd5aFytCwHyLvEr",
       votosPositivos: 0,
       votosNegativos: 0
     },
     {
-      titulo: "Vingadores: Ultimato",
-      genero: "Ação",
-      descricao: "Os Vingadores tentam reverter o estalo de Thanos.",
-      capa: "https://m.media-amazon.com/images/I/81ExhpBEbHL._AC_SL1500_.jpg",
+      titulo: "Shrek",
+      genero: "Comédia, Aventura, Fantasia",
+      descricao: "Um ogro mal-humorado e solitário tem sua paz perturbada e, para recuperá-la, precisa resgatar uma princesa em uma aventura divertida com um burro tagarela.",
+      capa: "https://upload.wikimedia.org/wikipedia/pt/e/e6/Shrek_Poster.jpg",
       votosPositivos: 0,
       votosNegativos: 0
     },
     {
-      titulo: "Interestelar",
-      genero: "Ficção Científica",
-      descricao: "Exploração espacial para salvar a humanidade.",
-      capa: "https://m.media-amazon.com/images/I/A1JVqNMI7UL._AC_SY606_.jpg",
+      titulo: "Scooby-Doo (2002)",
+      genero: " Comédia, Mistério, Aventura",
+      descricao: "A Mistério S.A. se reúne após dois anos para investigar eventos paranormais em um resort, mas precisam deixar de lado suas diferenças para resolver o caso.",
+      capa: "https://m.media-amazon.com/images/M/MV5BNTE3MzJjYWYtOWZjMC00YjljLWE4ZGQtNGM2ZDkwYTE4YzQ0XkEyXkFqcGc@._V1_.jpg",
       votosPositivos: 0,
       votosNegativos: 0
     },
     {
-      titulo: "A Origem",
-      genero: "Suspense",
-      descricao: "Um ladrão invade sonhos para roubar segredos.",
-      capa: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT3VT-Ynisr-nRV7R65rC8iZ4jyJKgLHU7wvROHYTnc1X7zg_4i",
+      titulo: "Shrek 2",
+      genero: "Comédia, Aventura, Fantasia",
+      descricao: "Shrek e Fiona viajam para o Reino de Tão Tão Distante para o casamento, onde Shrek precisa provar seu valor para os pais de Fiona e enfrentar a Fada Madrinha e o Gato de Botas.",
+      capa: "https://upload.wikimedia.org/wikipedia/pt/thumb/7/78/Shrek_2_Poster.jpg/250px-Shrek_2_Poster.jpg",
       votosPositivos: 0,
       votosNegativos: 0
     },
     {
-      titulo: "Toy Story",
-      genero: "Animação",
-      descricao: "Brinquedos ganham vida quando os humanos não estão olhando.",
-      capa: "https://upload.wikimedia.org/wikipedia/pt/a/a7/Toy_Story_1995.jpg",
+      titulo: "Shrek - O Terceiro",
+      genero: " Comédia, Aventura, Fantasia",
+      descricao: "Com o rei doente, Shrek parte em uma jornada para encontrar o próximo herdeiro do trono, enquanto o Príncipe Encantado tenta tomar o reino de Tão Tão Distante.",
+      capa: "https://m.media-amazon.com/images/M/MV5BNzg3YjY4N2UtMDQ2Zi00YzkxLThhZWQtN2ZmZmMyYzBhYzEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       votosPositivos: 0,
       votosNegativos: 0
     }

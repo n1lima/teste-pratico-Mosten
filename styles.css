@@ -41,10 +41,13 @@ body {
       margin-right: auto;
     }
     input, textarea {
-      width: 100%;
-      margin-bottom: 10px;
-      padding: 8px;
-    }
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
     .totais {
       text-align: center;
       margin: 15px 0;
